@@ -1,8 +1,12 @@
-# -*- coding: utf-8 -*-
 
 """
-KT1
-Lue käyttäjältä kaksi lukua ja tulosta niistä suurempi. Käytä if-else -lausetta vertailussa.
+# KT 1
+Lue käyttäjältä kaksi lukua ja tulosta niistä suurempi. 
+Käytä if-else -lausetta vertailussa.
+
+#TASK 1
+Compare two numbers entered by the user and print the larger one.
+Using an if-else statement for comparison.
 
 """
     
