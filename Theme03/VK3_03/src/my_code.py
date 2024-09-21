@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-
 """
-KT3
+#KT 3
 
 Kysy käyttäjältä ensin kieli (Suomi = 0/ Englanti =1). Oletuskieli on suomi, eli muu kuin 0/1 tarkoittaa suomenkielistä tulostusta.
 Määrittele koodissa viikonpäivien(ma, ti ke..) tekstit yhteen listaan, jossa on alkio/päivä eli siis molempien kielien viikonpäivänimet (esim Maanatai/Monday].
@@ -36,6 +35,30 @@ Friday 4.8 mm
 Syötteiden järkevyydestä ei tarvitse välittää!
 
 Ole taas huolellinen tulostusten kanssa!
+
+#TASK 3
+First, ask the user for the language (Finnish = 0 / English = 1). The default language is Finnish, meaning any input other than 0/1 will result in Finnish output.
+In the code, define the days of the week (Mon, Tue, Wed, etc.) in a list where each element represents a day of the week in both languages 
+(e.g., [Maanantai/Monday]).
+This involves a list within a list structure.
+Utilize a dictionary-type variable where you can store four measurement values (rainfall in millimeters) for each day from Monday to Friday.
+Read these measurement values from the user, calculate, and print the average for each day with one decimal place, as shown in the example.
+
+Example run:
+Which language /Please choose language (0 = suomi, 1 = english): 1  
+Monday 1. : 3  
+Monday 2. : 2  
+Monday 3. : 4  
+... (output shortened) ...  
+Friday 2. : 6  
+Friday 3. : 5  
+Friday 4. : 3  
+
+Monday 3.5 mm  
+Tuesday 3.2 mm  
+Wednesday 4.0 mm  
+Thursday 4.2 mm  
+Friday 4.8 mm
 
 """
 
