@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
-
 """
-KT 4
-
+#KT 4
 Kysy käyttäjältä lukujjen määrä ja arvo annettu  kplmäärä  liukulukuja väliltä 1 – 100.
 Arvo luku seuraavasti:
     random_decimal = random.randint(100, 10000) / 100
@@ -35,6 +33,34 @@ Min: 12.84
 Max: 75.41
 
 Ole taas huolellinen tulostusten kanssa!
+
+#TASK 4
+Ask the user for the number of values to generate and the number of floating-point numbers within the range 1 to 100.
+Generate random numbers using the following:
+random_decimal = random.randint(100, 10000) / 100
+    Print the generated number to the user (on the same line, separated by spaces) and immediately write it to a file named arvot.txt (one number per line).
+    If the user enters a number less than 1, terminate the program and print: "Error!".
+    If the file arvot.txt already exists, previous data should be overwritten.
+    After generating and writing the numbers, read them from the file into a list, sort the list, and then print the sorted values.
+    Finally, write the following statistics to another file tulokset.txt:
+        Number of values (Count)
+        Sum
+        Average
+        Minimum value
+        Maximum value Each value must be formatted with two decimal places (except the count).
+
+Example run:
+How many numbers to generate? 3
+Generated and saved the following numbers to arvot.txt:
+75.41 12.84 17.27
+Read and sorted the following numbers from arvot.txt:
+12.84 17.27 75.41
+Finally, from the file tulokset.txt, we found the following data:
+Count: 3
+Sum: 105.52
+Avg: 35.17
+Min: 12.84
+Max: 75.41
 
 """
 
