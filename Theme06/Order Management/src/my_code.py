@@ -1,16 +1,37 @@
+# -*- coding: utf-8 -*-
 """
-
-KT2
+#KT 2
 
 Tee luokka Tilaus, jolla on kolme jäsenmuuttujaa: tilausnumero, tuotekoodi ja maara.
-
 Toteuta lisäksi funktiot hae_tilaukset, talleta_tilaukset sekä tulosta_tilaukset. 
 Käytä tiedostonnimenä globaalin muuttujan filename arvoa. 
 Käytä talletukseen JSON-formaattia.
-
 Pääohjelma on valmiina, älä muokkaa sitä. Alla esimerkki ohjelman ajosta:
+Lisataanko tilaustuote (k/e): k
+Tilausnumero: a329847
+Tuotekoodi: 22323
+Maara: 283
+Lisataanko tilaustuote (k/e): k
+Tilausnumero: 383838b
+Tuotekoodi: 234
+Maara: 11
+Lisataanko tilaustuote (k/e): e
+{'tilausnumero': 'a329847', 'tuotekoodi': '22323', 'maara': 283}
+{'tilausnumero': '383838b', 'tuotekoodi': '234', 'maara': 11}
 
 
+#TASK 2
+Create a class Tilaus that has three member variables: tilausnumero (order number), tuotekoodi (product code), and maara (quantity).
+
+Additionally, implement the following functions:
+
+    hae_tilaukset: Reads orders from a file.
+    talleta_tilaukset: Saves the orders to a file.
+    tulosta_tilaukset: Prints the orders.
+
+Use the global variable filename as the file name, and store the data in JSON format.
+
+The main program is already written; do not modify it. Below is an example of how the program runs:
 Lisataanko tilaustuote (k/e): k
 Tilausnumero: a329847
 Tuotekoodi: 22323
