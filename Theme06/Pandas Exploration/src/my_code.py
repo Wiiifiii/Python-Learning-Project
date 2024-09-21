@@ -1,10 +1,15 @@
+# -*- coding: utf-8 -*-
 """
-KT4
+#KT 4
 
 Tutustu omatoimisesti Pandas-kirjastoon. Käytä tutustumiseen vaikkapa w3schools-sivustoa. 
 Tee yksi esimerkkiohjelma, jossa käytät ko kirjastoa sekä selitä se python-kommenteissa.  
 Esimerkkisovellus on vapaavalintainen.
 
+#TASK 4
+Independently explore the Pandas library. You can use resources like the W3Schools website for reference.
+Create an example program that uses the Pandas library and explain it with Python comments.
+The example application is up to your choice.
 
 """
 # Importing the Pandas library
