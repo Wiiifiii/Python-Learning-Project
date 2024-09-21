@@ -1,24 +1,41 @@
+# -*- coding: utf-8 -*-
 """
-KT1
-
+#KT 1
 Tee kaksi lambda-funktiota:
 * summa saa parametrinaan kaksi lukua ja palauttaa niiden summan
 * tulo saa parametrinaan kaksi lukua ja palauttaa niiden tulon
-
 Tee laske-funktio, joka saa parametrinaan funktion ja listan lukuja. Funktio palauttaa listassa olevien 
 lukujen tulon tai summan riippuen kumpaa em lambda-funktiota käytettiin funktion kutsussa. Jos luvut-lista on tyhjä, 
 niin palautetaan 0 ja jos luvut sisältää vain yhden alkion, niin palautetaan tämä alkio.
-
 VIHJE: Jos lista=[1, 2, 3], niin voit laskea alkioiden summan, s,  summa-funktion avulla näin:
-
 s=summa(summa(1, 2), 3) .
-
 Vastaava pätäee myös tuloon.
-
-
 Pääohjelma on valmiina, älä muokkaa sitä.
-
 Esimerkkitulostus:
+1320
+28
+4
+4
+0
+0
+
+#TASK 1
+
+Create two lambda functions:
+
+    summa takes two numbers as parameters and returns their sum.
+    tulo takes two numbers as parameters and returns their product.
+
+Create a laske function that takes a function and a list of numbers as parameters. The function returns the product or sum of the numbers in the list, depending on which of the two lambda functions (described above) is used in the function call. If the luvut list is empty, return 0, and if the list contains only one element, return that element.
+
+Hint: If the list is [1, 2, 3], you can calculate the sum of its elements using the summa function as follows:
+s = summa(summa(1, 2), 3).
+
+The same logic applies to the product.
+
+Note: The main program is already written; do not modify it.
+
+Example Output:
 1320
 28
 4
