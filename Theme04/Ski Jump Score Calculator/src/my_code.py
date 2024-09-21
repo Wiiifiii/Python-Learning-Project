@@ -1,19 +1,34 @@
+# -*- coding: utf-8 -*-
 """
-KT3
-Tee ohjelma, joka laskee mäkihyppääjän yhden kierroksen suorituspisteet. Ensin ohjelma kysyy hypyn pituuden (liukuluku 0.5 metrin välein) jonka jälkeen se kysyy viiden arvostelutuomarin tyylipisteet (0-20 välillä 0.5 välein eli esim. 16.5 tai 17.0 tai 18.5). Hyppääjän pisteet muodostuvat kaavasta.
+#KT 3
+Tee ohjelma, joka laskee mäkihyppääjän yhden kierroksen suorituspisteet. Ensin ohjelma kysyy hypyn pituuden
+(liukuluku 0.5 metrin välein) jonka jälkeen se kysyy viiden arvostelutuomarin tyylipisteet 
+(0-20 välillä 0.5 välein eli esim. 16.5 tai 17.0 tai 18.5). Hyppääjän pisteet muodostuvat kaavasta.
 
 pisteet = (hypyn pituus - kriittinen piste) * 1.8 + kolmen keskimmäisen tuomarin tyylipisteet + 60. 
-
 Tyylipisteissä siis parhain ja huonoin pistemäärä tipahtaa pois.
-
-Ohjelman hyppyrimäen kriittinen piste on 90 metrin kohdalla. Laita kriittinen piste globaaliin vakioon KR_PISTE. Tulosta lopuksi hypyn pituus ja hypyn pisteet. Käytä ohjelmassa funktioita:
-
+Ohjelman hyppyrimäen kriittinen piste on 90 metrin kohdalla. Laita kriittinen piste globaaliin vakioon KR_PISTE. 
+Tulosta lopuksi hypyn pituus ja hypyn pisteet. Käytä ohjelmassa funktioita:
 
 KysyHypynPituus - Kysyy hypyn pituuden ja palauttaa sen reaalilukuna
 KysyTuomareidenPisteet - Kysyy tuomareiden pisteet yksi kerrallaan. Palauttaa listan jossa on kunkin tuomarin antamat pisteet reaalilukuina. 
-LaskeHypynPisteet - Saa ensimmäisenä parametrina hypyn pituuden sekä toisena parametrina listan joka sisältää kaikkien tuomareiden antamat tyylipisteet. Palauttaa hypyn pisteet lukuna.
+LaskeHypynPisteet - Saa ensimmäisenä parametrina hypyn pituuden sekä toisena parametrina listan 
+joka sisältää kaikkien tuomareiden antamat tyylipisteet. Palauttaa hypyn pisteet lukuna.
 
- 
+#TASK 3
+Create a program that calculates the performance score of a ski jumper for one round. First, the program asks for the jump distance 
+(a floating-point number in 0.5 meter intervals), then asks for the style points from five judges 
+(0-20 points in 0.5 intervals, e.g., 16.5, 17.0, 18.5). The jumper’s score is calculated using the following formula:
+points = (jump distance - critical point) * 1.8 + the three middle judges' style points + 60
+
+In the style points, the highest and lowest points are dropped.
+
+The critical point of the ski jump is at 90 meters. Assign this value to a global constant KR_PISTE. At the end, print the jump distance and the calculated points. Use functions in the program as described below:
+
+    KysyHypynPituus - Asks for the jump distance and returns it as a floating-point number.
+    KysyTuomareidenPisteet - Asks for the style points from the judges one by one. Returns a list containing the style points as floating-point numbers.
+    LaskeHypynPisteet - Takes the jump distance as the first parameter and a list of the judges' style points as the second parameter. 
+    Returns the calculated jump score as a number.
 """
 # Define the global critical point constant
 KR_PISTE = 90
