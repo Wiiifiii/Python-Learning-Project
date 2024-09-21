@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-
 """
-KT6
+#KT 6
 Kysy käyttäjältä mitä hän haluaa seuraavista vaihtoehdoista (eli käyttäjä syöttää joko numeron 0, 1, 2 tai 3) :
 
    0 = Lopetus
@@ -61,6 +60,63 @@ Ala on 452.39
 3 = Laske ympyrän pinta-ala
 Anna valintasi: 0
 
+#TASK 6
+Ask the user what they want to do from the following options (the user inputs either 0, 1, 2, or 3):
+
+0 = Exit 1 = Enter radius 2 = Calculate circle circumference 3 = Calculate circle area
+
+"Enter your choice:"
+
+Print the question as described above.
+
+Any input other than 0, 1, 2, or 3 is treated as 0, which will terminate the program.
+
+Option 0 exits the program.
+
+Option 1 asks for the circle's radius. The default radius value is zero (0.0).
+
+Option 2 prints the circumference of the circle (the formula is: circumference = 2 * pi * radius).
+
+Option 3 prints the area of the circle (the formula is: area = pi * radius * radius).
+
+If the user selects 1, 2, or 3, the program performs the corresponding action (input/output) and then asks the user for their choice again.
+
+The value of pi is obtained from the math module (use import math at the top of the code and retrieve pi with math.pi).
+
+Print all floating-point numbers with two decimal places.
+
+Sample run:
+0 = Exit
+1 = Enter radius
+2 = Calculate circle circumference
+3 = Calculate circle area
+Enter your choice: 1
+Enter radius: 12
+
+
+0 = Exit
+1 = Enter radius
+2 = Calculate circle circumference
+3 = Calculate circle area
+Enter your choice: 2
+The circumference is 75.40
+
+
+0 = Exit
+1 = Enter radius
+2 = Calculate circle circumference
+3 = Calculate circle area
+Enter your choice: 3
+The area is 452.39
+
+
+0 = Exit
+1 = Enter radius
+2 = Calculate circle circumference
+3 = Calculate circle area
+Enter your choice: 0
+
+   
 """
 
 import math
