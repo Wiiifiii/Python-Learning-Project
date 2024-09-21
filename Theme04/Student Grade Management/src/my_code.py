@@ -1,5 +1,6 @@
+# -*- coding: utf-8 -*-
 """
-KT2
+#KT 2
 Luo dictionary, jossa sinulla henkilöiden arvosanoja (0-5). Jos arvosana < 0, niin laitetaan nollaksi ja jos > 5, niin laitetaan viitoseksi. Henkilön nimi on avain ja arvosana arvo. Dictionaryyn ei luonnollisestikaan saa lisätä samannimistä henkilöä uudelleen. Nimiä/arvosanoja kysytään, kunnes nimeksi annetaan LOPPU. 
 
 Jos hylättyjä ei ole, niin tulosta kaikkien arvosanojen tiedot (nimi + arvosana). Jos hylättyjä on, niin tulosta hylättyjen määrä näytölle ja sen lisäksi tulosta hylätyn saaneiden henkilöiden nimet.
@@ -12,6 +13,19 @@ TulostaKaikki - Saa parametrina dictionaryn ja tulostaa siitä kaikkien henkilö
 
 Huolehdi, että ohjelma ei kaadu, jos arvosanaksi annetaan muuta kuin numeroita 
 
+#TASK 2
+Create a dictionary that holds people's grades (0-5). If the grade is less than 0, it should be set to zero, and if it's greater than 5, it should be set to five. The person's name will be the key, and the grade will be the value. Naturally, the same person cannot be added to the dictionary more than once. Names and grades will be asked until the name "LOPPU" (END) is entered.
+
+If there are no failing grades (0), print the details of all grades (name + grade). If there are any failing grades, print the number of failures and also print the names of the individuals who received a failing grade.
+
+Implement the following functions:
+
+    LuoNimetJaArvosanat - Asks for names and grades from the user and returns a dictionary.
+    TulostaHylatyt - Takes a dictionary as a parameter and prints the names of individuals who received a failing grade (0).
+    PalautaHylattyjenMaara - Takes a dictionary as a parameter and returns the number of individuals who received a failing grade.
+    TulostaKaikki - Takes a dictionary as a parameter and prints the names and grades of all individuals.
+
+Ensure the program does not crash if the user enters something other than a number for the grade.
 """
 
 # Function to get names and grades from the user
