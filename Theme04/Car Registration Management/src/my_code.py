@@ -1,8 +1,7 @@
+# -*- coding: utf-8 -*-
 """
-KT5
-
+#KT 5
 Dictionarya käytetään autojen rekisteröintietietojen tallentamiseen. Kirjoita seuraavat funktiot:
-
 LueAutot - Lukee näppäimistöltä ensin auton rekisterinumeron ja sitten rekisteröintipäivämäärän ja tallentaa tiedot dictionaryyn. 
 Tätä toistetaan niin kauan kunnes rekisterinumeroksi syötetään LOPPU. Päivämäärät tallennetaan datetime-tyyppisinä. 
 Funktio palauttaa täytetyn dictionaryn. datetime-tyypin käyttö on opiskeltava omatoimisesti. Päivämäärä syötetään muodossa dd.mm.yyyy, 
@@ -26,6 +25,30 @@ for line in f:
 
 niin muuttuja line sisältää myös rivinvaihdon. Sen voit poistaa str.strip()-metodilla.
 
+#TASK 5
+A dictionary is used to store car registration details. Write the following functions:
+
+    LueAutot (ReadCars) - First reads the car's registration number from the keyboard, then the registration date, 
+    and stores the information in a dictionary. This is repeated until the registration number entered is "LOPPU" (STOP). 
+    The registration dates are stored as datetime objects. The function returns the filled dictionary. If the date format 
+    is incorrect, the user is asked to input the date again in the format dd.mm.yyyy (for example, 14.1.2022). You need to 
+    study how to use datetime objects on your own.
+
+    TalletaTiedostoon (SaveToFile) - Takes the previously created dictionary as a parameter and saves its contents to a 
+    text file called autot.txt. In the file, dates are stored without a timestamp. Each row in the file contains the car's 
+    registration number and registration date, separated by a tab character ('\t').
+
+    LueTiedostosta (ReadFromFile) - Reads the autot.txt file into a dictionary and returns it.
+
+    TulostaTiedot (PrintDetails) - Takes the dictionary containing the registration details as a parameter. 
+    The function prints the cars' registration numbers and registration dates.
+
+If necessary, write a test program to test the functions.
+
+TIP: If you read the file using a structure like:
+for line in f:
+    ...
+The variable line will contain the newline character at the end. You can remove it using the str.strip() method.
 """
 import datetime
 
