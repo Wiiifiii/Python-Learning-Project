@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-# KT 1
+#KT 1
 Lue käyttäjältä kaksi lukua ja tulosta niistä suurempi. 
 Käytä if-else -lausetta vertailussa.
 
