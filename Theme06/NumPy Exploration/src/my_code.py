@@ -1,10 +1,13 @@
+# -*- coding: utf-8 -*-
 """
-KT3
-
+#KT 3
 Tutustu omatoimisesti NymPy-kirjastoon. Käytä tutustumiseen vaikkapa w3schools-sivustoa. 
 Tee yksi esimerkkiohjelma, jossa käytät ko kirjastoa sekä selitä se python-kommenteissa. Esimerkkisovellus on vapaavalintainen.
 
-
+#TASK 3
+Independently explore the NymPy library. You can use resources like the W3Schools website for reference.
+Create an example program that uses the NymPy library, and explain it with Python comments.
+The example application is up to your choice.
 
 """
 # Importing the NumPy library
