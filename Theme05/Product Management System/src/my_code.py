@@ -1,6 +1,6 @@
+# -*- coding: utf-8 -*-
 """
-KT4
-
+#KT 4
 Pääset suunnittelemaan Tuote-sovellusta suuren kauppaketjun tuotekehitysosastolla. Tehtävänäsi on suunnitella luokkarakenne, 
 jolla voidaan hallinnoida yrityksen tuotteita. Kaikilla tuotteilla on samat yhteiset ominaisuudet: nimi, hinta, hyllypaikka sekä koodi. 
 Nämä esitellään tuote-luokassa, jonka aliluokat perivät. Aliluokkia on kolme, joilla on omia ominaisuuksia:
@@ -62,6 +62,70 @@ Hylly:      Varasto 12
 Koodi:      543-234-232-22
 Takuu:      1 vuosi
 Paino:      100kg
+
+#TASK 4
+You are tasked with designing a product application for the product development department of 
+a large retail chain. Your task is to design a class structure to manage the company’s products. 
+All products have the same common attributes: name, price, shelf location, and code. These are presented 
+in a base product class that the subclasses will inherit from. There are three subclasses, each with its own specific attributes:
+
+a. Clothing: size, material
+b. Food: country of origin, expiration date
+c. Appliance: warranty, weight
+
+Write a simple program that allows users to enter products into a single product list and print 
+the entire content of the list. The types of the class attributes are not specified, so you can 
+decide them yourself. In the program, users first select which type of product is being entered, 
+and then fill in the relevant details. How to stop entering products is up to you. Naturally, at the end, the entire list is printed.
+
+Here’s an example of the program:
+
+What type of product is being added to the list (1 = Food, 2 = Clothing, 3 = Appliance, other = Exit): 1  
+Enter product name: Sugar  
+Enter price: 2.45  
+Enter shelf location: Food 11  
+Enter code: 111-222-333-22  
+Country of origin: Denmark  
+Expiration date: 1.3.2024  
+
+What type of product is being added to the list (1 = Food, 2 = Clothing, 3 = Appliance, other = Exit): 2  
+Enter product name: Shirt  
+Enter price: 22.10  
+Enter shelf location: Clothing 3  
+Enter code: 222-122-232-11  
+Clothing size: M  
+Material: Cotton  
+
+What type of product is being added to the list (1 = Food, 2 = Clothing, 3 = Appliance, other = Exit): 3  
+Enter product name: Freezer  
+Enter price: 320.00  
+Enter shelf location: Warehouse 12  
+Enter code: 543-234-232-22  
+Appliance warranty: 1 year  
+Weight: 100kg  
+
+What type of product is being added to the list (1 = Food, 2 = Clothing, 3 = Appliance, other = Exit): other  
+
+Name: Sugar  
+Price: 2.45  
+Shelf: Food 11  
+Code: 111-222-333-22  
+Country of origin: Denmark  
+Expiration date: 1.3.2024  
+
+Name: Shirt  
+Price: 22.10  
+Shelf: Clothing 3  
+Code: 222-122-232-11  
+Size: M  
+Material: Cotton  
+
+Name: Freezer  
+Price: 320.00  
+Shelf: Warehouse 12  
+Code: 543-234-232-22  
+Warranty: 1 year  
+Weight: 100kg
 
 """
 # Base class tuote and its derived classes
