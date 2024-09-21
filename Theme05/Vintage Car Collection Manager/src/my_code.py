@@ -1,29 +1,20 @@
+# -*- coding: utf-8 -*-
 """
-
-KT5
+#KT 5
 
 MyCarStorage on Python- sovellus, joka ylläpitää tietoja omasta vintage-autojen kokoelmasta
 sieltä luonnollisesti voidaan poistaa ja sinne  lisätä niitä)
-
 Luokassa CarStorage määritetty koko uniikin autokokoelmani tiedot.
-
 Luokassa Car on yhden hankitun auton tiedot (nimi (siis hellittelynimi rakkaalle autolle),
 automalli, hankintapvm, huollot, hankintahinta ja hankintapaikka).
-
 Luokassa CarModel auton  malli ja merkkitieto (merkki ja malli).
-
 Luokassa Service autolle tehty huoltotieto (huoltopvm, toimenpide, hinta).
-
 Yllä ei ole kerrottu millaisia tarkistuksia jäsenmuuttujien tiedoille pitää
 settereissä tehdä ja mitä ovat niiden oletusarvoja.
 Ne voit miettiä itse, Setterit ja getteri tulee luonnollisesti koodata
-
 Pääohjelma on valmiiksi kirjoitettu, älä muokkaa sitä.
-
 Alle esimerkkitulostus:
-
 The list of my sweet cars:
-
 Name:  Kauppakassi
 Brand: Volvo Model: V70 Bought: 01.01.2020
 Service history:
@@ -46,6 +37,59 @@ Service history:
 	Date: 04.12.2001 Operation: Jakopaan hihna vaihdettu Price: 500
 	Date: 04.12.2019 Operation: Pakoputki vaihdettu Price: 324
 Bought place:  Auli Autoilija, Pori
+
+#TASK 5
+MyCarStorage is a Python application that manages information about a vintage car collection, where you can naturally add and remove cars.
+
+The CarStorage class defines the data structure for managing the entire unique collection of cars.
+
+The Car class holds the details of a single acquired car, including:
+
+    Name (a nickname for your beloved car)
+    Car model
+    Purchase date
+    Services performed
+    Purchase price
+    Purchase location
+
+The CarModel class stores the car's brand and model information.
+
+The Service class stores maintenance information for a car, including:
+
+    Service date
+    Operation performed
+    Price
+
+It is up to you to decide what kind of validation the setters will perform and what default values the attributes will have. Naturally, you should implement the getters and setters.
+
+The main program is already written, do not modify it.
+
+Below is an example output:
+The list of my sweet cars:
+
+Name: Kauppakassi  
+Brand: Volvo Model: V70 Bought: 01.01.2020  
+Service history:  
+    Date: 11.01.2021 Operation: Renkaat vaihdettu Price: 300  
+    Date: 04.03.2019 Operation: Oljynvaihto Price: 234  
+Bought place: Kuopion tori  
+
+Name: Polle  
+Brand: Porsche Model: Cayanne Bought: 13.01.2021  
+Service history:  
+    Date: 11.03.2021 Operation: Renkaat vaihdettu Price: 1300  
+    Date: 04.12.2019 Operation: Jakopaan hihna vaihdettu Price: 2324  
+Bought place: Ita-Auto, Helsinki  
+
+Name: Amppeeri  
+Brand: Datsun Model: 100A Bought: 13.11.1991  
+Service history:  
+    Date: 11.03.1992 Operation: Renkaat vaihdettu Price: 400  
+    Date: 02.05.1995 Operation: Renkaat vaihdettu Price: 440  
+    Date: 04.12.2001 Operation: Jakopaan hihna vaihdettu Price: 500  
+    Date: 04.12.2019 Operation: Pakoputki vaihdettu Price: 324  
+Bought place: Auli Autoilija, Pori  
+
 """
 
 import datetime
