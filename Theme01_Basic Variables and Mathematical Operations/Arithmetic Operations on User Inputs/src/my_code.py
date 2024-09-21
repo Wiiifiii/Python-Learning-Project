@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 """
 #KT 3
 Lue käyttäjältä arvot kahteen lukumuuttujaan. Nimeä muuttujat nimillä eka ja toka sekä alusta ne arvolla nolla.

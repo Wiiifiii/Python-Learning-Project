@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 #KT 2
 Esittele muuttujat etunimi (enimi, "??"), sukunimi (snimi, "??") ja kokonimi (knimi, "?? ??") ja

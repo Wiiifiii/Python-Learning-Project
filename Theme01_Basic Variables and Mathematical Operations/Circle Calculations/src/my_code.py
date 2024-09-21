@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 """
 #KT 5
 Esittele muuttuja pii, jolle annat alkuarvoksi piin likiarvon 6 desimaalin tarkkuudella.

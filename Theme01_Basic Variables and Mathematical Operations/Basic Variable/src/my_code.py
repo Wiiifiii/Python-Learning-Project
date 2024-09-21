@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 #KT 1
 Esittele ja anna alkuarvot muuttujille (käytä muuttujanimiä ja arvoja, jotka suluissa muuttujien perässä),

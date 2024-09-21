@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 """
 #KT 4
 Lue nimi, pituus ja paino em nimisiin muuttujiin. Käytä juuri noita muuttujanimiä.

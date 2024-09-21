@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 """
 #KT 2
 Lue käyttäjältä koenumero 4-10 väliltä. Jos käyttäjä syötti arvosanan väärin (ei väliltä 4-10) , 
