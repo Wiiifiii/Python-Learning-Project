@@ -1,17 +1,13 @@
+# -*- coding: utf-8 -*-
 """
 KT2
-
-
 Olet aloittanut osakesijoittamisen ja haluat arvioida sijoituksesi arvoa. Ohjelmalla (pääohjelmassa) on lista, johon käyttäjä voi lisätä Osake-olioita. Ohjelma kysyy käyttäjältä ”Lisätäänkö uusi osake (k/e)”.
 Kun osakkeet on lisätty listaan, kysyy ohjelma käyttäjältä kuvitteellisen kasvuprosentin sekä ajanjakson vuosina.
-
 
 Tee luokka Osake, jolla on jäsenmuuttujat:
 - nimi
 - ostohinta (>0, osakekohtainen ostohinta)
 - maara (> 0, omistettujen osakkeiden lkm)
-
-
 
 Osakkeella on metodit:
 
@@ -23,7 +19,6 @@ Laske pääohjelmassa  myös koko osakepotin arvo(sama % ja samat vuodet) käym�
 joudut miettimään sitä, miten pääohjelmaan palautetaan tieto yhden osakkeen potin arvosta vuosien jälkeen.
 
 Esimerkkiajo:
-
 
 Anna osakkeen nimi: Nokia
 Anna osakkeen ostohinta/kpl: 10
@@ -45,6 +40,55 @@ Fortum 127 12.0
 Osakkeen potin arvo on 1764.22 ja tuotto 240.22
 
 Koko potin arvo on 13340.47
+
+#TASK 2
+You have started stock investing and want to evaluate the value of your investment. 
+The program (in the main program) will have a list where the user can add "Stock" objects. 
+The program asks the user, "Would you like to add a new stock (y/n)?". Once the stocks are 
+added to the list, the program asks the user for an imaginary growth rate and the duration in years.
+
+Create a class "Stock" with the following member variables:
+
+name: Stock name
+purchase_price: (>0, per share purchase price)
+quantity: (>0, number of shares owned)
+
+The "Stock" class has the following methods:
+
+print_value: Parameters are the growth rate and duration in years (in this order). 
+The print_value method calls another method from the "Stock" class called calculate_annual_growth, 
+which calculates the yearly return. The print_value method calls calculate_annual_growth for 
+the number of years. For example, if calculating the return for three years, calculate_annual_growth
+is called three times. The compound interest is taken into account. The values are printed with two decimal places.
+
+calculate_annual_growth: This method returns the growth for one year. 
+The method is static and receives the growth rate and the price at the beginning of the year (in this order).
+
+In the main program, also calculate the total value of the stock portfolio (using the same % and years) 
+by going through the list of stocks. You will need to figure out how to return the total value of the portfolio to the main program after several years.
+Example Output:
+
+Enter stock name: Nokia
+Enter stock purchase price per share: 10
+Enter the number of shares: 1000
+Add more stocks (y/n)? y
+
+Enter stock name: Fortum
+Enter stock purchase price per share: 12
+Enter the number of shares: 127
+Add more stocks (y/n)? n
+
+Enter growth rate: 5
+Enter years: 3
+
+Nokia 1000 10.0
+Stock portfolio value is 11576.25, and profit is 1576.25
+
+Fortum 127 12.0
+Stock portfolio value is 1764.22, and profit is 240.22
+
+Total portfolio value is 13340.47
+
 """
 # Class for Osake (Stock)
 class Osake:
