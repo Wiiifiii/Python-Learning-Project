@@ -1,20 +1,25 @@
-# -*- coding: utf-8 -*-
-
 """
-KT2
-
+#KT 2
 Esittele muuttujat etunimi (enimi, "??"), sukunimi (snimi, "??") ja kokonimi (knimi, "?? ??") ja
 laita niille oletusarvot. Muuttujanimet ja oletusarvot annettu suluissa. Tulosta kokonimi, jolloin pitäisi tulostua aluksi "?? ??".
 Lue käyttäjältä etunimi ja sukunimi ja yhdistä nämä kokonimi-muuttujaan.
 Tulosta nimi näytölle kokonimi-muuttujasta. Alla esimerkki ohjelmasta:
+?? ??
+Anna etunimi : Jussi
+Anna sukunimi : Juonio
+Nimesi on Jussi Juonio
+
+#TASK 2
+
+Introduce variables first_name (enimi, "??"), last_name (snimi, "??"), and full_name (knimi, "?? ??") and
+give them default values. The variable names and default values are provided in parentheses. Print full_name, 
+so it should initially print "?? ??". Then, ask the user for their first name and last name, and combine these 
+into the full_name variable. Finally, print the name from the full_name variable. Below is an example of the program:
 
 ?? ??
-
-Anna etunimi : Jussi
-
-Anna sukunimi : Juonio
-
-Nimesi on Jussi Juonio
+Enter your first name: Jussi
+Enter your last name: Juonio
+Your name is Jussi Juonio
 """
 
 # Define the variables with the default values
