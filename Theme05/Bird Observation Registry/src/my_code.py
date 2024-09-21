@@ -1,5 +1,6 @@
+# -*- coding: utf-8 -*-
 """
-KT1
+#KT 1
 
 Luontojärjestö KuopionBongarit tarvitsee uuden rekisterin, johon kaikki lintuhavainnot rekisteröidään.
 
@@ -12,10 +13,30 @@ Tee julkinen luokka Havainto, jolla on ominaisuudet:
 - kuvaus, teksti
  
 Tee luokalle muodostin, jossa annetaan arvot kaikille luokan attribuuteille yllä olevassa järjestyksessä.
-Tee kaikille jäsenmuuttujille getterit ja setterit Python-tekniikalla,  jotta tietoja pääsee muokkaamaan ja lukemaan. Tulosta getterissä viesti "getter" ja vastaavasti setterissä viesti "setter".
+Tee kaikille jäsenmuuttujille getterit ja setterit Python-tekniikalla,  jotta tietoja pääsee muokkaamaan ja lukemaan. 
+Tulosta getterissä viesti "getter" ja vastaavasti setterissä viesti "setter".
 Tee myös __str__-metodi.  
-Testaa pääohjelmassa. Mitään sen kummempaa käyttöliittymää ei tarvitse tehdä. Riittää, että luot yhden Havainto olion ja tulostat sen tiedot hyödyntäen __str__ metodia.
+Testaa pääohjelmassa. Mitään sen kummempaa käyttöliittymää ei tarvitse tehdä. Riittää, että luot yhden Havainto olion ja 
+tulostat sen tiedot hyödyntäen __str__ metodia.
 
+#TASK 1
+Create a public class Havainto (Observation) with the following attributes:
+
+    lintulaji (bird species), string.
+    maara (quantity), integer (if less than 0, set to 0).
+    tyyppi (type), string (whether the bird was local or migratory, for example).
+    havaintopvm (observation date), datetime (cannot be in the future).
+    paikka (location), string.
+    kuvaus (description), string.
+
+Requirements:
+
+    Create a constructor that assigns values to all of the class attributes in the order listed above.
+    Implement getters and setters for all attributes. In each getter, print the message "getter"; in each setter, print the message "setter".
+    Create a __str__ method that returns a string representation of the object for easy printing.
+    In the main program, create an instance of the Havainto class and print the object using the __str__ method. You don't need a complex user interface.
+
+Code Example:
 """
 from datetime import datetime
 
