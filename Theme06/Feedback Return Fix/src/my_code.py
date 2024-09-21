@@ -1,8 +1,11 @@
+# -*- coding: utf-8 -*-
 """
-KT5
+#KT 5
 
 Korjaa alla oleva funktio siten, että se palauttaa 'Olen antanut palautteen'
 
+#TASK 5
+Fix the function below so that it returns 'Olen antanut palautteen' (which means 'I have given feedback').
 """
 def palautteen_tila():
     return 'En ole antanut palautetta'
