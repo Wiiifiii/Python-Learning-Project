@@ -1,22 +1,39 @@
 # -*- coding: utf-8 -*-
 
-#
-# KT2
-#
-# Kysy käyttäjältä, montako lukua arvotaan.Jos käyttäjä syöttää arvon < 1, tulostuu "Virhe!"
-# Tee lista ja arvo siihen em määrä lukuja  väliltä 0-20.
-# Vain parilliset luvut sallitaan.
-# Jos arvottiin pariton luku niin sen tilalle on arvottava uusi luku.
-# Tulosta luvuista suurin ja pienein samalle riville
-# Ja lopuksi tulosta arvotut luvut yhdelle riville pilkulla erotettuna
-# Huomaa, että viimeisen luvun jälkeen ei tule pilkkua
-#
-# Esimerkkiajo ohessa
-#
-# Montako lukua arvotaan: 3
-# Suurin: 6 ja pienin: 0
-# 4,0,6
-#
+"""
+#KT 2
+
+Kysy käyttäjältä, montako lukua arvotaan.Jos käyttäjä syöttää arvon < 1, tulostuu "Virhe!"
+Tee lista ja arvo siihen em määrä lukuja  väliltä 0-20.
+Vain parilliset luvut sallitaan.
+Jos arvottiin pariton luku niin sen tilalle on arvottava uusi luku.
+Tulosta luvuista suurin ja pienein samalle riville
+Ja lopuksi tulosta arvotut luvut yhdelle riville pilkulla erotettuna
+Huomaa, että viimeisen luvun jälkeen ei tule pilkkua
+
+Esimerkkiajo ohessa
+
+Montako lukua arvotaan: 3
+Suurin: 6 ja pienin: 0
+4,0,6
+
+#TASK 2
+Ask the user how many numbers should be generated. If the user enters a value < 1, print "Error!"
+Create a list and generate that many numbers between 0-20.
+Only even numbers are allowed.
+If an odd number is generated, generate a new one to replace it.
+Print the largest and smallest numbers on the same line.
+Finally, print the generated numbers on one line, separated by commas.
+Note that there should be no comma after the last number.
+
+Example run:
+How many numbers to generate: 3  
+Largest: 6 and smallest: 0  
+4,0,6
+
+"""
+
+
 
 import random
 
