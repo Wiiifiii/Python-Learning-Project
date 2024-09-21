@@ -1,5 +1,6 @@
+# -*- coding: utf-8 -*-
 """
-KT3
+#KT 3
 
 Tarvitset luokan Tekstiviesti, jossa käsitellään perinteisiä tekstiviestejä. Tekstiviestin tiedoissa on puhelinnumerot 2 kpl, 
 joista toinen on siis lähettäjä ja toinen vastaanottaja. Samoin tarvitset tiedon siitä, jolloin viesti lähetettiin. 
@@ -27,6 +28,35 @@ Päivän 12.01.2021 viestit:
 Lähettäjän +35844126783 viestit ovat:
 +35844126783 +358406334523 12.01.2021 Osta makkaraa
 +35844126783 +358406334523 13.01.2021 Muistitko makkaran?!?!
+
+#TASK 3
+You need a class TextMessage that handles traditional text messages. The details of a text message 
+include two phone numbers—one for the sender and one for the recipient. Additionally, you need information 
+about when the message was sent, which obviously cannot be a future date. Naturally, the message content itself is also part of the details.
+
+Create another class SMSUtils that contains only two methods:
+
+fetch_daily_messages: This method receives a list of TextMessage objects and a date as parameters. 
+It returns all messages that were sent on the given date.
+print_number_messages: This method also receives a list of TextMessage objects and a phone number. 
+It prints all messages that were sent from the given phone number. The method does not return anything.
+
+The test program is already written. Your task is to implement the classes that work with the test program.
+Example Output:
+All messages:
++35844123123 +35840632123 02.11.2021 Go home now
++35844126783 +358406334523 12.01.2021 Buy sausages
++35845678533 +3584007243 12.01.2021 I Love You!!
++35844126783 +358406334523 13.01.2021 Did you remember the sausages?!?!
+
+Messages on 12.01.2021:
++35844126783 +358406334523 12.01.2021 Buy sausages
++35845678533 +3584007243 12.01.2021 I Love You!!
+
+Messages from sender +35844126783:
++35844126783 +358406334523 12.01.2021 Buy sausages
++35844126783 +358406334523 13.01.2021 Did you remember the sausages?!?!
+
 """
 from datetime import datetime
 
